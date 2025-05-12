@@ -33,9 +33,9 @@ MERCEDES-2013,2
 
 ## 📦 Requirements
 
-- Python 3.x
-- Apache Spark 3.x
-- `data.csv` in the same directory or HDFS path
+- Python 3.12.10
+- Apache Spark 3.5.5
+- `data.csv` in the same directory
 
 ---
 
@@ -45,7 +45,7 @@ MERCEDES-2013,2
 
 2. **Run the Spark job** using:
 
-```bash
+
 spark-submit autoinc_spark.py
 
 cat output/part-*
